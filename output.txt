@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<!-- as-i-0c2be6e0de1405722.aws.sg.saavn.com (Fri Jun 22 14:00:33 PDT 2018) -->
+
+
+
+
+
+
+<html class="gr__saavn_com">
+<!-- Head -->
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Top 10 Hindi Songs of The Week 18 June 2018, Bollywood Top 10 Songs,  Weekly Top Ten</title>
+    <link rel="manifest" href="/manifest.json">
+    <meta name="google" content="notranslate" />
+    <meta name="keywords" content="Top 10 Bollywood Songs of The Week, Weekly Top Ten Hindi Songs, Top 5, Top 15, Top 20, Top 40 Indian Songs"/><meta name="description" content="Play the latest top 10 Hindi songs of the week 18 June 2018. Check out Saavn's Bollywood top ten songs. *High Quality *Free Music *Latest Songs *No Download Required"/>
+    <meta property="og:type" content="music.playlist"/><meta property="og:image" content="https://c.saavncdn.com/957/Veere-Di-Wedding-Hindi-2018-20180531-500x500.jpg"/><meta property="og:image:height" content="500"/><meta property="og:image:width" content="500"/><meta property="og:url" content="https://www.saavn.com/play/featured/hindi/Weekly_Top_Songs/8MT-LQlP35c_"/><meta property="og:audio" content="https://www.saavn.com/play/featured/hindi/Weekly_Top_Songs/8MT-LQlP35c_"/><meta property="og:audio:type" content="audio/vnd.facebook.bridge"/><meta property="og:title" content="Top Hindi Songs - Weekly Playlist - Listen on Saavn"/><meta property="og:description" content="Listen to the Top 10, 15 & 30 Hindi songs of the week only on Saavn. Play online or download to listen offline free - in HD audio, only on Saavn."/><meta property="music:song" content="Array"/><meta property="music:creator" content="https://www.saavn.com/u/phulki_user"/>
+    <link rel="icon shortcut" type="image/x-icon" href="/_i/favicons/favicon.png">
+            <link rel="stylesheet" type="text/css" href="https://static.saavncdn.com/_c/wap.min.css?t=1529574874">
+    <link rel="search" title="Saavn" type="application/opensearchdescription+xml" href="/opensearch.xml">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+    <script>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+    </script>
+
+</head>
+
+<body onload="Player.init()">
+    <div id = "jwplayerSaavnWap" width = "1" height ="1" class = "hide" >
+    </div>
+    <input type="hidden" id ="auth_token_window" value = 60>
+    <input type="hidden" id ="play_dummy" value = "false">
+    <input type="hidden" id ="is_row" value = true>
+</body>
+    <!-- Page Header (Homepage only) -->
+    <body data-gr-c-s-loaded="true" style=""><div id="page-top" data-id="home">
+        <div class="nav-wrap">
+            <a onclick="Util.logAndGoToUrl('wap:playlist_detail:saavn_logo::click', '/');return false;" href="/"><div id="logo"></div></a>
+            <div class="homepage" id="vert-div">|</div>
+            <div class="homepage" id="menu"></div>
+            <div class="homepage" id="search"></div>
+            <div class="homepage" id="current-lang">Hindi<span id="lang-arrow" class="homepage"></span></div>
+        </div>
+        <div id="nav-bg" class=""></div>
+        <div id="search-box">
+            <input class="search-bar" placeholder="Search" id="q" onkeypress="return Wap.searchKeyPress(event);" ></input>
+            <button type="button" class="search-button" onclick="Wap.doSearch();">Go</button>
+        </div>
+        <!-- Language Select -->
+          <div id="lang-select-list">
+                <span class="lang-select-title">What kind of music do you <br>want to listen to?</span>
+                <ul>                    <li><a class="langname selected" onclick='Util.setCookie("L", "Hindi".toLowerCase());Analytics.logAndSendEventToGA(["wap:playlist_detail:languages:select_language:click","element_id_type","language_id","element_id","Hindi"]);window.location.reload();return false;'>Hindi</a></li>                    <li><a class="langname " onclick='Util.setCookie("L", "Tamil".toLowerCase());Analytics.logAndSendEventToGA(["wap:playlist_detail:languages:select_language:click","element_id_type","language_id","element_id","Tamil"]);window.location.reload();return false;'>Tamil</a></li>                    <li><a class="langname " onclick='Util.setCookie("L", "Telugu".toLowerCase());Analytics.logAndSendEventToGA(["wap:playlist_detail:languages:select_language:click","element_id_type","language_id","element_id","Telugu"]);window.location.reload();return false;'>Telugu</a></li>                    <li><a class="langname " onclick='Util.setCookie("L", "Punjabi".toLowerCase());Analytics.logAndSendEventToGA(["wap:playlist_detail:languages:select_language:click","element_id_type","language_id","element_id","Punjabi"]);window.location.reload();return false;'>Punjabi</a></li>                    <li><a class="langname " onclick='Util.setCookie("L", "Marathi".toLowerCase());Analytics.logAndSendEventToGA(["wap:playlist_detail:languages:select_language:click","element_id_type","language_id","element_id","Marathi"]);window.location.reload();return false;'>Marathi</a></li>                    <li><a class="langname " onclick='Util.setCookie("L", "Gujarati".toLowerCase());Analytics.logAndSendEventToGA(["wap:playlist_detail:languages:select_language:click","element_id_type","language_id","element_id","Gujarati"]);window.location.reload();return false;'>Gujarati</a></li>                    <li><a class="langname " onclick='Util.setCookie("L", "Bengali".toLowerCase());Analytics.logAndSendEventToGA(["wap:playlist_detail:languages:select_language:click","element_id_type","language_id","element_id","Bengali"]);window.location.reload();return false;'>Bengali</a></li>                    <li><a class="langname " onclick='Util.setCookie("L", "Kannada".toLowerCase());Analytics.logAndSendEventToGA(["wap:playlist_detail:languages:select_language:click","element_id_type","language_id","element_id","Kannada"]);window.location.reload();return false;'>Kannada</a></li>                    <li><a class="langname " onclick='Util.setCookie("L", "Bhojpuri".toLowerCase());Analytics.logAndSendEventToGA(["wap:playlist_detail:languages:select_language:click","element_id_type","language_id","element_id","Bhojpuri"]);window.location.reload();return false;'>Bhojpuri</a></li>                    <li><a class="langname " onclick='Util.setCookie("L", "Malayalam".toLowerCase());Analytics.logAndSendEventToGA(["wap:playlist_detail:languages:select_language:click","element_id_type","language_id","element_id","Malayalam"]);window.location.reload();return false;'>Malayalam</a></li>                    <li><a class="langname " onclick='Util.setCookie("L", "Urdu".toLowerCase());Analytics.logAndSendEventToGA(["wap:playlist_detail:languages:select_language:click","element_id_type","language_id","element_id","Urdu"]);window.location.reload();return false;'>Urdu</a></li>                    <li><a class="langname " onclick='Util.setCookie("L", "Rajasthani".toLowerCase());Analytics.logAndSendEventToGA(["wap:playlist_detail:languages:select_language:click","element_id_type","language_id","element_id","Rajasthani"]);window.location.reload();return false;'>Rajasthani</a></li>                    <li><a class="langname " onclick='Util.setCookie("L", "Odia".toLowerCase());Analytics.logAndSendEventToGA(["wap:playlist_detail:languages:select_language:click","element_id_type","language_id","element_id","Odia"]);window.location.reload();return false;'>Odia</a></li>                    <li><a class="langname " onclick='Util.setCookie("L", "Assamese".toLowerCase());Analytics.logAndSendEventToGA(["wap:playlist_detail:languages:select_language:click","element_id_type","language_id","element_id","Assamese"]);window.location.reload();return false;'>Assamese</a></li>                </ul>
+            </div>
+        </div>                <div id="bottom-banner" style = "display: none ;" class="text-center">
+                        <h2 class="dark" id="msg">Want to hear the whole track?</h2>
+                        <p class="light" id="sub-msg">Listen with no limits on the Saavn app.</p>
+                        <div class="button-row one-whole">
+                            <div class="float-left one-half">
+                                <a  onclick="var events=[&quot;wap:playlist_details_page:get_saavn::click&quot;,&quot;utm_content&quot;,&quot;wap:playlist_details_page:get_saavn::click&quot;,&quot;utm_page&quot;,&quot;playlist_details_page&quot;,&quot;utm_button&quot;,&quot;get_saavn&quot;,&quot;referrer&quot;,&quot;utm_source%3DMobileWeb_RoW%26utm_medium%3Dplaylist_details_page%26utm_campaign%3DGetSaavnButton&quot;,&quot;container_type&quot;,&quot;button&quot;,&quot;referrer&quot;,&quot;utm_source%3DMobileWeb_RoW%26utm_medium%3Dplaylist_details_page%26utm_campaign%3DGetSaavnButton&quot;];Util.logAndGoToUrl(events,&quot;?&amp;utm_content=wap:playlist_details_page:get_saavn::click&amp;utm_page=playlist_details_page&amp;utm_button=get_saavn&amp;referrer=utm_source%3DMobileWeb_RoW%26utm_medium%3Dplaylist_details_page%26utm_campaign%3DGetSaavnButton&quot;, &quot;_self&quot;);return false;"                         href=""<div class="btn-green float-right">Get Saavn</div></a>
+                            </div>
+                            <div class="float-left one-half">
+                                <a  onclick='Analytics.logAndSendEventToGA("wap:playlist_details_page:have_saavn::click")'  href="" <div class="btn-app float-left">I Have Saavn</div></a>
+                            </div>
+                        </div>
+                </div>
+    <div id="overlay"></div>
+    <div id="main-content">                <script>
+                    googletag.cmd.push(function() {
+                        googletag.defineSlot('/6714/SAAVNMobileWeb', [[320, 50]], 'div-gpt-ad-1507066807207-0').addService(googletag.pubads());
+                        googletag.pubads().setTargeting('env','mobileweb-prod').setTargeting('view_type','playlist_details_page').setTargeting('language','hindi').setTargeting('platform','unknown')
+                        googletag.pubads().enableSingleRequest();
+                        googletag.enableServices();
+                    });
+                </script>
+                <!-- Ad Banner --> <!-- /6714/SAAVNMobileWeb -->
+                <div id="div-gpt-ad-1507066807207-0" class="ad-banner">
+                    <script>
+                        googletag.cmd.push(function() { googletag.display("div-gpt-ad-1507066807207-0"); });
+                    </script>
+                </div>	<!-- Header -->
+        <div class="angle"></div>
+        <div class="angle-bottom"></div>
+		<div id="header">
+			<!-- Playlist details -->
+			<div class="header-content">
+                <h1>Weekly Top Songs</h1>
+                <h2>By Saavn Editor</h2>
+                <img src="https://c.saavncdn.com/957/Veere-Di-Wedding-Hindi-2018-20180531-150x150.jpg" class="playlist-art">
+				<a onclick='Analytics.logAndSendEventToGA(["wap:playlist_detail:play::click","utm_content","wap:playlist_detail:play::click","utm_page","playlist_detail","utm_button","play","page_id","49","container_type","button","element_id_type","playlist_id","element_id","49"]);Wap.goToApp("","Unknown"); return false;' class="" href=""></a>
+                <p class="more-content-info">Playlist &#8729; 30 Songs &#8729; 251,876 Follower</p>
+			</div>
+		</div>
+<!-- Body content -->
+		<div id="content-body">
+			<ol class="content-list">                    <li>
+                        <div class="content-cell num">                <a onclick='Analytics.logAndSendEventToGA(["wap:playlist_detail:songs:play_song:click","utm_content","wap:playlist_detail:songs:play_song:click","utm_page","playlist_detail","utm_button","songs","page_id","49","container_type","list","element_id_type","song_id","element_id","IQxl8BXs","position","1"]);Player.playClick({"url":"https:\/\/preview.saavncdn.com\/957\/0cc1c42db275b8b004baffe7bc331eb4_96_p.mp4","pid":"IQxl8BXs","length":"186"}, this); return false;' href=""><div class="quick-play list-view play-progress" id= "play-pause"></div></a>
+                <div id = "loader" class="lds-css ng-scope hide" style="width: 40px; height: 40px;">
+                    <div style="width:100%;height:100%" class="lds-ripple">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>            				<a href="https://www.saavn.com/s/song/hindi/Veere-Di-Wedding/Tareefan/OTkTXUxyb0A?&utm_content=wap:playlist_detail:songs:select_song:click&utm_page=playlist_detail&utm_button=songs">
+                            <div class="details content-list">
+                                <p class="song-name ellip">Tareefan<p>
+                                <p class="album-name ellip">Veere Di Wedding</p>
+                            </div>
+                            <i id = "progressbar" class="circle" data-value="1" data-js="circleProgress"></i>
+                            <p id ="timer" class="time">30s</p>
+                                                 <div class="fa fa-chevron-right"></div>
+                        </div></a>
+                    </li>                    <li>
+                        <div class="content-cell num">                <a onclick='Analytics.logAndSendEventToGA(["wap:playlist_detail:songs:play_song:click","utm_content","wap:playlist_detail:songs:play_song:click","utm_page","playlist_detail","utm_button","songs","page_id","49","container_type","list","element_id_type","song_id","element_id","eWDM9xAe","position","2"]);Player.playClick({"url":"https:\/\/preview.saavncdn.com\/240\/2aadba62ec424782c9a3434a21b70639_96_p.mp4","pid":"eWDM9xAe","length":"207"}, this); return false;' href=""><div class="quick-play list-view play-progress" id= "play-pause"></div></a>
+                <div id = "loader" class="lds-css ng-scope hide" style="width: 40px; height: 40px;">
+                    <div style="width:100%;height:100%" class="lds-ripple">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>            				<a href="https://www.saavn.com/s/song/hindi/Bom-Diggy/Bom-Diggy/FT8vfE1IdlY?&utm_content=wap:playlist_detail:songs:select_song:click&utm_page=playlist_detail&utm_button=songs">
+                            <div class="details content-list">
+                                <p class="song-name ellip">Bom Diggy<p>
+                                <p class="album-name ellip">Bom Diggy</p>
+                            </div>
+                            <i id = "progressbar" class="circle" data-value="1" data-js="circleProgress"></i>
+                            <p id ="timer" class="time">30s</p>
+                                                 <div class="fa fa-chevron-right"></div>
+                        </div></a>
+                    </li>                    <li>
+                        <div class="content-cell num">                <a onclick='Analytics.logAndSendEventToGA(["wap:playlist_detail:songs:play_song:click","utm_content","wap:playlist_detail:songs:play_song:click","utm_page","playlist_detail","utm_button","songs","page_id","49","container_type","list","element_id_type","song_id","element_id","fTRIIDze","position","3"]);Player.playClick({"url":"https:\/\/preview.saavncdn.com\/203\/bf77612b555ecd5072959bf9c3679b6f_96_p.mp4","pid":"fTRIIDze","length":"251"}, this); return false;' href=""><div class="quick-play list-view play-progress" id= "play-pause"></div></a>
+                <div id = "loader" class="lds-css ng-scope hide" style="width: 40px; height: 40px;">
+                    <div style="width:100%;height:100%" class="lds-ripple">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>            				<a href="https://www.saavn.com/s/song/hindi/Baaghi-2/O-Saathi/Fjw5eD10TVY?&utm_content=wap:playlist_detail:songs:select_song:click&utm_page=playlist_detail&utm_button=songs">
+                            <div class="details content-list">
+                                <p class="song-name ellip">O Saathi<p>
+                                <p class="album-name ellip">Baaghi 2</p>
+                            </div>
+                            <i id = "progressbar" class="circle" data-value="1" data-js="circleProgress"></i>
+                            <p id ="timer" class="time">30s</p>
+                                                 <div class="fa fa-chevron-right"></div>
+                        </div></a>
+                    </li>                    <li>
+                        <div class="content-cell num">                <a onclick='Analytics.logAndSendEventToGA(["wap:playlist_detail:songs:play_song:click","utm_content","wap:playlist_detail:songs:play_song:click","utm_page","playlist_detail","utm_button","songs","page_id","49","container_type","list","element_id_type","song_id","element_id","EOxxcPth","position","4"]);Player.playClick({"url":"https:\/\/preview.saavncdn.com\/323\/7841e41803276551540d6d77b475ca5e_96_p.mp4","pid":"EOxxcPth","length":"193"}, this); return false;' href=""><div class="quick-play list-view play-progress" id= "play-pause"></div></a>
+                <div id = "loader" class="lds-css ng-scope hide" style="width: 40px; height: 40px;">
+                    <div style="width:100%;height:100%" class="lds-ripple">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>            				<a href="https://www.saavn.com/s/song/hindi/Buzz/Buzz/NScTSRdgQ1s?&utm_content=wap:playlist_detail:songs:select_song:click&utm_page=playlist_detail&utm_button=songs">
+                            <div class="details content-list">
+                                <p class="song-name ellip">Buzz<p>
+                                <p class="album-name ellip">Buzz</p>
+                            </div>
+                            <i id = "progressbar" class="circle" data-value="1" data-js="circleProgress"></i>
+                            <p id ="timer" class="time">30s</p>
+                                                 <div class="fa fa-chevron-right"></div>
+                        </div></a>
+                    </li>                    <li>
+                        <div class="content-cell num">                <a onclick='Analytics.logAndSendEventToGA(["wap:playlist_detail:songs:play_song:click","utm_content","wap:playlist_detail:songs:play_song:click","utm_page","playlist_detail","utm_button","songs","page_id","49","container_type","list","element_id_type","song_id","element_id","SrJQ1kIE","position","5"]);Player.playClick({"url":"https:\/\/preview.saavncdn.com\/809\/54c7e6b555ee4d71b60517f42795df70_96_p.mp4","pid":"SrJQ1kIE","length":"191"}, this); return false;' href=""><div class="quick-play list-view play-progress" id= "play-pause"></div></a>
+                <div id = "loader" class="lds-css ng-scope hide" style="width: 40px; height: 40px;">
+                    <div style="width:100%;height:100%" class="lds-ripple">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>            				<a href="https://www.saavn.com/s/song/hindi/Coca-Cola-Tu/Coca-Cola-Tu/IxohYEVbfnY?&utm_content=wap:playlist_detail:songs:select_song:click&utm_page=playlist_detail&utm_button=songs">
+                            <div class="details content-list">
+                                <p class="song-name ellip">Coca Cola Tu<p>
+                                <p class="album-name ellip">Coca Cola Tu</p>
+                            </div>
+                            <i id = "progressbar" class="circle" data-value="1" data-js="circleProgress"></i>
+                            <p id ="timer" class="time">30s</p>
+                                                 <div class="fa fa-chevron-right"></div>
+                        </div></a>
+                    </li>                    <li>
+                        <div class="content-cell num">                <a onclick='Analytics.logAndSendEventToGA(["wap:playlist_detail:songs:play_song:click","utm_content","wap:playlist_detail:songs:play_song:click","utm_page","playlist_detail","utm_button","songs","page_id","49","container_type","list","element_id_type","song_id","element_id","7H0BeDsK","position","6"]);Player.playClick({"url":"https:\/\/preview.saavncdn.com\/074\/58c12f57c1a5dc0adbe4ce8c369960c8_96_p.mp4","pid":"7H0BeDsK","length":"226"}, this); return false;' href=""><div class="quick-play list-view play-progress" id= "play-pause"></div></a>
+                <div id = "loader" class="lds-css ng-scope hide" style="width: 40px; height: 40px;">
+                    <div style="width:100%;height:100%" class="lds-ripple">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>            				<a href="https://www.saavn.com/s/song/hindi/Sonu-Ke-Titu-Ki-Sweety/Dil-Chori/RyBbcxF0RHg?&utm_content=wap:playlist_detail:songs:select_song:click&utm_page=playlist_detail&utm_button=songs">
+                            <div class="details content-list">
+                                <p class="song-name ellip">Dil Chori<p>
+                                <p class="album-name ellip">Sonu Ke Titu Ki Sweety</p>
+                            </div>
+                            <i id = "progressbar" class="circle" data-value="1" data-js="circleProgress"></i>
+                            <p id ="timer" class="time">30s</p>
+                                                 <div class="fa fa-chevron-right"></div>
+                        </div></a>
+                    </li>                    <li>
+                        <div class="content-cell num">                <a onclick='Analytics.logAndSendEventToGA(["wap:playlist_detail:songs:play_song:click","utm_content","wap:playlist_detail:songs:play_song:click","utm_page","playlist_detail","utm_button","songs","page_id","49","container_type","list","element_id_type","song_id","element_id","466Fxnry","position","7"]);Player.playClick({"url":"https:\/\/preview.saavncdn.com\/941\/4b9e6fabc5395fab8d49522120ffa3ea_96_p.mp4","pid":"466Fxnry","length":"314"}, this); return false;' href=""><div class="quick-play list-view play-progress" id= "play-pause"></div></a>
+                <div id = "loader" class="lds-css ng-scope hide" style="width: 40px; height: 40px;">
+                    <div style="width:100%;height:100%" class="lds-ripple">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>            				<a href="https://www.saavn.com/s/song/hindi/Raazi/Dilbaro/RF5ddwxeRUo?&utm_content=wap:playlist_detail:songs:select_song:click&utm_page=playlist_detail&utm_button=songs">
+                            <div class="details content-list">
+                                <p class="song-name ellip">Dilbaro<p>
+                                <p class="album-name ellip">Raazi</p>
+                            </div>
+                            <i id = "progressbar" class="circle" data-value="1" data-js="circleProgress"></i>
+                            <p id ="timer" class="time">30s</p>
+                                                 <div class="fa fa-chevron-right"></div>
+                        </div></a>
+                    </li>                    <li>
+                        <div class="content-cell num">                <a onclick='Analytics.logAndSendEventToGA(["wap:playlist_detail:songs:play_song:click","utm_content","wap:playlist_detail:songs:play_song:click","utm_page","playlist_detail","utm_button","songs","page_id","49","container_type","list","element_id_type","song_id","element_id","gf4cA9Jj","position","8"]);Player.playClick({"url":"https:\/\/preview.saavncdn.com\/426\/a476fe370c1f23f10e87b2b029359870_96_p.mp4","pid":"gf4cA9Jj","length":"192"}, this); return false;' href=""><div class="quick-play list-view play-progress" id= "play-pause"></div></a>
+                <div id = "loader" class="lds-css ng-scope hide" style="width: 40px; height: 40px;">
+                    <div style="width:100%;height:100%" class="lds-ripple">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>            				<a href="https://www.saavn.com/s/song/hindi/Jab-Koi-Baat---DJ-Chetas/Jab-Koi-Baat---DJ-Chetas/Fw5fUjUJfVk?&utm_content=wap:playlist_detail:songs:select_song:click&utm_page=playlist_detail&utm_button=songs">
+                            <div class="details content-list">
+                                <p class="song-name ellip">Jab Koi Baat - DJ Chetas<p>
+                                <p class="album-name ellip">Jab Koi Baat - DJ Chetas</p>
+                            </div>
+                            <i id = "progressbar" class="circle" data-value="1" data-js="circleProgress"></i>
+                            <p id ="timer" class="time">30s</p>
+                                                 <div class="fa fa-chevron-right"></div>
+                        </div></a>
+                    </li>                    <li>
+                        <div class="content-cell num">                <a onclick='Analytics.logAndSendEventToGA(["wap:playlist_detail:songs:play_song:click","utm_content","wap:playlist_detail:songs:play_song:click","utm_page","playlist_detail","utm_button","songs","page_id","49","container_type","list","element_id_type","song_id","element_id","J54I24Qs","position","9"]);Player.playClick({"url":"https:\/\/preview.saavncdn.com\/351\/bbe8d09819e79db6b3f9396a52297d8c_96_p.mp4","pid":"J54I24Qs","length":"260"}, this); return false;' href=""><div class="quick-play list-view play-progress" id= "play-pause"></div></a>
+                <div id = "loader" class="lds-css ng-scope hide" style="width: 40px; height: 40px;">
+                    <div style="width:100%;height:100%" class="lds-ripple">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>            				<a href="https://www.saavn.com/s/song/hindi/Tiger-Zinda-Hai/Dil-Diyan-Gallan/Ol1feEYEZkA?&utm_content=wap:playlist_detail:songs:select_song:click&utm_page=playlist_detail&utm_button=songs">
+                            <div class="details content-list">
+                                <p class="song-name ellip">Dil Diyan Gallan<p>
+                                <p class="album-name ellip">Tiger Zinda Hai</p>
+                            </div>
+                            <i id = "progressbar" class="circle" data-value="1" data-js="circleProgress"></i>
+                            <p id ="timer" class="time">30s</p>
+                                                 <div class="fa fa-chevron-right"></div>
+                        </div></a>
+                    </li>                    <li>
+                        <div class="content-cell num">                <a onclick='Analytics.logAndSendEventToGA(["wap:playlist_detail:songs:play_song:click","utm_content","wap:playlist_detail:songs:play_song:click","utm_page","playlist_detail","utm_button","songs","page_id","49","container_type","list","element_id_type","song_id","element_id","OsjK0Qo4","position","10"]);Player.playClick({"url":"https:\/\/preview.saavncdn.com\/615\/962658db9373a6d121bb82440b39e715_96_p.mp4","pid":"OsjK0Qo4","length":"270"}, this); return false;' href=""><div class="quick-play list-view play-progress" id= "play-pause"></div></a>
+                <div id = "loader" class="lds-css ng-scope hide" style="width: 40px; height: 40px;">
+                    <div style="width:100%;height:100%" class="lds-ripple">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>            				<a href="https://www.saavn.com/s/song/hindi/Dil-De-Huzoora/Dil-De-Huzoora/PxsBekRhWAc?&utm_content=wap:playlist_detail:songs:select_song:click&utm_page=playlist_detail&utm_button=songs">
+                            <div class="details content-list">
+                                <p class="song-name ellip">Dil De Huzoora<p>
+                                <p class="album-name ellip">Dil De Huzoora</p>
+                            </div>
+                            <i id = "progressbar" class="circle" data-value="1" data-js="circleProgress"></i>
+                            <p id ="timer" class="time">30s</p>
+                                                 <div class="fa fa-chevron-right"></div>
+                        </div></a>
+                    </li>                    <li>
+                        <div class="content-cell num">                <a onclick='Analytics.logAndSendEventToGA(["wap:playlist_detail:songs:play_song:click","utm_content","wap:playlist_detail:songs:play_song:click","utm_page","playlist_detail","utm_button","songs","page_id","49","container_type","list","element_id_type","song_id","element_id","XqY3IQa6","position","11"]);Player.playClick({"url":"https:\/\/preview.saavncdn.com\/319\/d3527e7086440a3948677ae0fd591c04_96_p.mp4","pid":"XqY3IQa6","length":"311"}, this); return false;' href=""><div class="quick-play list-view play-progress" id= "play-pause"></div></a>
+                <div id = "loader" class="lds-css ng-scope hide" style="width: 40px; height: 40px;">
+                    <div style="width:100%;height:100%" class="lds-ripple">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>            				<a href="https://www.saavn.com/s/song/hindi/Sanju/Kar-Har-Maidaan-Fateh/KBkyAj1hVgU?&utm_content=wap:playlist_detail:songs:select_song:click&utm_page=playlist_detail&utm_button=songs">
+                            <div class="details content-list">
+                                <p class="song-name ellip">Kar Har Maidaan Fateh<p>
+                                <p class="album-name ellip">Sanju</p>
+                            </div>
+                            <i id = "progressbar" class="circle" data-value="1" data-js="circleProgress"></i>
+                            <p id ="timer" class="time">30s</p>
+                                                 <div class="fa fa-chevron-right"></div>
+                        </div></a>
+                    </li>                    <li>
+                        <div class="content-cell num">                <a onclick='Analytics.logAndSendEventToGA(["wap:playlist_detail:songs:play_song:click","utm_content","wap:playlist_detail:songs:play_song:click","utm_page","playlist_detail","utm_button","songs","page_id","49","container_type","list","element_id_type","song_id","element_id","AKAhx45f","position","12"]);Player.playClick({"url":"https:\/\/preview.saavncdn.com\/074\/8e3e88b1985835db0c57869622e0efe0_96_p.mp4","pid":"AKAhx45f","length":"204"}, this); return false;' href=""><div class="quick-play list-view play-progress" id= "play-pause"></div></a>
+                <div id = "loader" class="lds-css ng-scope hide" style="width: 40px; height: 40px;">
+                    <div style="width:100%;height:100%" class="lds-ripple">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>            				<a href="https://www.saavn.com/s/song/hindi/Sonu-Ke-Titu-Ki-Sweety/Chhote-Chhote-Peg/MSMqWQwEAlU?&utm_content=wap:playlist_detail:songs:select_song:click&utm_page=playlist_detail&utm_button=songs">
+                            <div class="details content-list">
+                                <p class="song-name ellip">Chhote Chhote Peg<p>
+                                <p class="album-name ellip">Sonu Ke Titu Ki Sweety</p>
+                            </div>
+                            <i id = "progressbar" class="circle" data-value="1" data-js="circleProgress"></i>
+                            <p id ="timer" class="time">30s</p>
+                                                 <div class="fa fa-chevron-right"></div>
+                        </div></a>
+                    </li>                    <li>
+                        <div class="content-cell num">                <a onclick='Analytics.logAndSendEventToGA(["wap:playlist_detail:songs:play_song:click","utm_content","wap:playlist_detail:songs:play_song:click","utm_page","playlist_detail","utm_button","songs","page_id","49","container_type","list","element_id_type","song_id","element_id","7Ni3e90O","position","13"]);Player.playClick({"url":"https:\/\/preview.saavncdn.com\/098\/47c7284f4c699ed24dc79e39d6dc21e1_96_p.mp4","pid":"7Ni3e90O","length":"282"}, this); return false;' href=""><div class="quick-play list-view play-progress" id= "play-pause"></div></a>
+                <div id = "loader" class="lds-css ng-scope hide" style="width: 40px; height: 40px;">
+                    <div style="width:100%;height:100%" class="lds-ripple">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>            				<a href="https://www.saavn.com/s/song/hindi/Ghar-Se-Nikalte-Hi/Ghar-Se-Nikalte-Hi/RyYCAhEJB3w?&utm_content=wap:playlist_detail:songs:select_song:click&utm_page=playlist_detail&utm_button=songs">
+                            <div class="details content-list">
+                                <p class="song-name ellip">Ghar Se Nikalte Hi<p>
+                                <p class="album-name ellip">Ghar Se Nikalte Hi</p>
+                            </div>
+                            <i id = "progressbar" class="circle" data-value="1" data-js="circleProgress"></i>
+                            <p id ="timer" class="time">30s</p>
+                                                 <div class="fa fa-chevron-right"></div>
+                        </div></a>
+                    </li>                    <li>
+                        <div class="content-cell num">                <a onclick='Analytics.logAndSendEventToGA(["wap:playlist_detail:songs:play_song:click","utm_content","wap:playlist_detail:songs:play_song:click","utm_page","playlist_detail","utm_button","songs","page_id","49","container_type","list","element_id_type","song_id","element_id","B92dc8cW","position","14"]);Player.playClick({"url":"https:\/\/preview.saavncdn.com\/159\/18fadb2ce9ff8a5f529f167ee4064181_96_p.mp4","pid":"B92dc8cW","length":"210"}, this); return false;' href=""><div class="quick-play list-view play-progress" id= "play-pause"></div></a>
+                <div id = "loader" class="lds-css ng-scope hide" style="width: 40px; height: 40px;">
+                    <div style="width:100%;height:100%" class="lds-ripple">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>            				<a href="https://www.saavn.com/s/song/hindi/Raid/Sanu-Ek-Pal-Chain/MlFZVRcIVGQ?&utm_content=wap:playlist_detail:songs:select_song:click&utm_page=playlist_detail&utm_button=songs">
+                            <div class="details content-list">
+                                <p class="song-name ellip">Sanu Ek Pal Chain<p>
+                                <p class="album-name ellip">Raid</p>
+                            </div>
+                            <i id = "progressbar" class="circle" data-value="1" data-js="circleProgress"></i>
+                            <p id ="timer" class="time">30s</p>
+                                                 <div class="fa fa-chevron-right"></div>
+                        </div></a>
+                    </li>                    <li>
+                        <div class="content-cell num">                <a onclick='Analytics.logAndSendEventToGA(["wap:playlist_detail:songs:play_song:click","utm_content","wap:playlist_detail:songs:play_song:click","utm_page","playlist_detail","utm_button","songs","page_id","49","container_type","list","element_id_type","song_id","element_id","tXCHZyXM","position","15"]);Player.playClick({"url":"https:\/\/preview.saavncdn.com\/111\/6868ab9ebc54581b11c67706e0113970_96_p.mp4","pid":"tXCHZyXM","length":"222"}, this); return false;' href=""><div class="quick-play list-view play-progress" id= "play-pause"></div></a>
+                <div id = "loader" class="lds-css ng-scope hide" style="width: 40px; height: 40px;">
+                    <div style="width:100%;height:100%" class="lds-ripple">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>            				<a href="https://www.saavn.com/s/song/hindi/Hate-Story-IV/Aashiq-Banaya-Aapne/BDAoeS5Jb34?&utm_content=wap:playlist_detail:songs:select_song:click&utm_page=playlist_detail&utm_button=songs">
+                            <div class="details content-list">
+                                <p class="song-name ellip">Aashiq Banaya Aapne<p>
+                                <p class="album-name ellip">Hate Story IV</p>
+                            </div>
+                            <i id = "progressbar" class="circle" data-value="1" data-js="circleProgress"></i>
+                            <p id ="timer" class="time">30s</p>
+                                                 <div class="fa fa-chevron-right"></div>
+                        </div></a>
+                    </li>                    <li>
+                        <div class="content-cell num">                <a onclick='Analytics.logAndSendEventToGA(["wap:playlist_detail:songs:play_song:click","utm_content","wap:playlist_detail:songs:play_song:click","utm_page","playlist_detail","utm_button","songs","page_id","49","container_type","list","element_id_type","song_id","element_id","hxA-mxrH","position","16"]);Player.playClick({"url":"https:\/\/preview.saavncdn.com\/104\/c3494997ef5e728b0db684845fb90858_96_p.mp4","pid":"hxA-mxrH","length":"236"}, this); return false;' href=""><div class="quick-play list-view play-progress" id= "play-pause"></div></a>
+                <div id = "loader" class="lds-css ng-scope hide" style="width: 40px; height: 40px;">
+                    <div style="width:100%;height:100%" class="lds-ripple">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>            				<a href="https://www.saavn.com/s/song/hindi/Dil-Juunglee/Gazab-Ka-Hai-Din/GBAqHBlIRXs?&utm_content=wap:playlist_detail:songs:select_song:click&utm_page=playlist_detail&utm_button=songs">
+                            <div class="details content-list">
+                                <p class="song-name ellip">Gazab Ka Hai Din<p>
+                                <p class="album-name ellip">Dil Juunglee</p>
+                            </div>
+                            <i id = "progressbar" class="circle" data-value="1" data-js="circleProgress"></i>
+                            <p id ="timer" class="time">30s</p>
+                                                 <div class="fa fa-chevron-right"></div>
+                        </div></a>
+                    </li>                    <li>
+                        <div class="content-cell num">                <a onclick='Analytics.logAndSendEventToGA(["wap:playlist_detail:songs:play_song:click","utm_content","wap:playlist_detail:songs:play_song:click","utm_page","playlist_detail","utm_button","songs","page_id","49","container_type","list","element_id_type","song_id","element_id","0PMwW-eI","position","17"]);Player.playClick({"url":"https:\/\/preview.saavncdn.com\/957\/b122a6fe82668b5bdc3945f8ff413677_96_p.mp4","pid":"0PMwW-eI","length":"267"}, this); return false;' href=""><div class="quick-play list-view play-progress" id= "play-pause"></div></a>
+                <div id = "loader" class="lds-css ng-scope hide" style="width: 40px; height: 40px;">
+                    <div style="width:100%;height:100%" class="lds-ripple">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>            				<a href="https://www.saavn.com/s/song/hindi/Veere-Di-Wedding/Veere/QDgmRiMdUno?&utm_content=wap:playlist_detail:songs:select_song:click&utm_page=playlist_detail&utm_button=songs">
+                            <div class="details content-list">
+                                <p class="song-name ellip">Veere<p>
+                                <p class="album-name ellip">Veere Di Wedding</p>
+                            </div>
+                            <i id = "progressbar" class="circle" data-value="1" data-js="circleProgress"></i>
+                            <p id ="timer" class="time">30s</p>
+                                                 <div class="fa fa-chevron-right"></div>
+                        </div></a>
+                    </li>                    <li>
+                        <div class="content-cell num">                <a onclick='Analytics.logAndSendEventToGA(["wap:playlist_detail:songs:play_song:click","utm_content","wap:playlist_detail:songs:play_song:click","utm_page","playlist_detail","utm_button","songs","page_id","49","container_type","list","element_id_type","song_id","element_id","4IAdp5kV","position","18"]);Player.playClick({"url":"https:\/\/preview.saavncdn.com\/005\/03a8331229a713245b9feda4352ed66c_96_p.mp4","pid":"4IAdp5kV","length":"258"}, this); return false;' href=""><div class="quick-play list-view play-progress" id= "play-pause"></div></a>
+                <div id = "loader" class="lds-css ng-scope hide" style="width: 40px; height: 40px;">
+                    <div style="width:100%;height:100%" class="lds-ripple">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>            				<a href="https://www.saavn.com/s/song/hindi/Padmaavat/Khalibali/RCEqVQQFXGU?&utm_content=wap:playlist_detail:songs:select_song:click&utm_page=playlist_detail&utm_button=songs">
+                            <div class="details content-list">
+                                <p class="song-name ellip">Khalibali<p>
+                                <p class="album-name ellip">Padmaavat</p>
+                            </div>
+                            <i id = "progressbar" class="circle" data-value="1" data-js="circleProgress"></i>
+                            <p id ="timer" class="time">30s</p>
+                                                 <div class="fa fa-chevron-right"></div>
+                        </div></a>
+                    </li>                    <li>
+                        <div class="content-cell num">                <a onclick='Analytics.logAndSendEventToGA(["wap:playlist_detail:songs:play_song:click","utm_content","wap:playlist_detail:songs:play_song:click","utm_page","playlist_detail","utm_button","songs","page_id","49","container_type","list","element_id_type","song_id","element_id","Pa8djH9v","position","19"]);Player.playClick({"url":"https:\/\/preview.saavncdn.com\/319\/96b3f20523e8badd08d26552027ec90b_96_p.mp4","pid":"Pa8djH9v","length":"274"}, this); return false;' href=""><div class="quick-play list-view play-progress" id= "play-pause"></div></a>
+                <div id = "loader" class="lds-css ng-scope hide" style="width: 40px; height: 40px;">
+                    <div style="width:100%;height:100%" class="lds-ripple">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>            				<a href="https://www.saavn.com/s/song/hindi/Sanju/Main-Badhiya-Tu-Bhi-Badhiya/IAlTVR54DkU?&utm_content=wap:playlist_detail:songs:select_song:click&utm_page=playlist_detail&utm_button=songs">
+                            <div class="details content-list">
+                                <p class="song-name ellip">Main Badhiya Tu Bhi Badhiya<p>
+                                <p class="album-name ellip">Sanju</p>
+                            </div>
+                            <i id = "progressbar" class="circle" data-value="1" data-js="circleProgress"></i>
+                            <p id ="timer" class="time">30s</p>
+                                                 <div class="fa fa-chevron-right"></div>
+                        </div></a>
+                    </li>                    <li>
+                        <div class="content-cell num">                <a onclick='Analytics.logAndSendEventToGA(["wap:playlist_detail:songs:play_song:click","utm_content","wap:playlist_detail:songs:play_song:click","utm_page","playlist_detail","utm_button","songs","page_id","49","container_type","list","element_id_type","song_id","element_id","Ca4uJ8SA","position","20"]);Player.playClick({"url":"https:\/\/preview.saavncdn.com\/957\/597503ea8e60f0067c9896bd2ae9717c_96_p.mp4","pid":"Ca4uJ8SA","length":"226"}, this); return false;' href=""><div class="quick-play list-view play-progress" id= "play-pause"></div></a>
+                <div id = "loader" class="lds-css ng-scope hide" style="width: 40px; height: 40px;">
+                    <div style="width:100%;height:100%" class="lds-ripple">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>            				<a href="https://www.saavn.com/s/song/hindi/Veere-Di-Wedding/Bhangra-Ta-Sajda-No-One-Gives-A-Damn!/MwlfRD4IZHI?&utm_content=wap:playlist_detail:songs:select_song:click&utm_page=playlist_detail&utm_button=songs">
+                            <div class="details content-list">
+                                <p class="song-name ellip">Bhangra Ta Sajda (No One Gives A Damn!)<p>
+                                <p class="album-name ellip">Veere Di Wedding</p>
+                            </div>
+                            <i id = "progressbar" class="circle" data-value="1" data-js="circleProgress"></i>
+                            <p id ="timer" class="time">30s</p>
+                                                 <div class="fa fa-chevron-right"></div>
+                        </div></a>
+                    </li>                    <li>
+                        <div class="content-cell num">                <a onclick='Analytics.logAndSendEventToGA(["wap:playlist_detail:songs:play_song:click","utm_content","wap:playlist_detail:songs:play_song:click","utm_page","playlist_detail","utm_button","songs","page_id","49","container_type","list","element_id_type","song_id","element_id","W13ekRcO","position","21"]);Player.playClick({"url":"https:\/\/preview.saavncdn.com\/074\/57b11cf147b198b52d68db5515c59356_96_p.mp4","pid":"W13ekRcO","length":"238"}, this); return false;' href=""><div class="quick-play list-view play-progress" id= "play-pause"></div></a>
+                <div id = "loader" class="lds-css ng-scope hide" style="width: 40px; height: 40px;">
+                    <div style="width:100%;height:100%" class="lds-ripple">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>            				<a href="https://www.saavn.com/s/song/hindi/Sonu-Ke-Titu-Ki-Sweety/Bom-Diggy-Diggy/J1lYVB9iVHw?&utm_content=wap:playlist_detail:songs:select_song:click&utm_page=playlist_detail&utm_button=songs">
+                            <div class="details content-list">
+                                <p class="song-name ellip">Bom Diggy Diggy<p>
+                                <p class="album-name ellip">Sonu Ke Titu Ki Sweety</p>
+                            </div>
+                            <i id = "progressbar" class="circle" data-value="1" data-js="circleProgress"></i>
+                            <p id ="timer" class="time">30s</p>
+                                                 <div class="fa fa-chevron-right"></div>
+                        </div></a>
+                    </li>                    <li>
+                        <div class="content-cell num">                <a onclick='Analytics.logAndSendEventToGA(["wap:playlist_detail:songs:play_song:click","utm_content","wap:playlist_detail:songs:play_song:click","utm_page","playlist_detail","utm_button","songs","page_id","49","container_type","list","element_id_type","song_id","element_id","fYllgjRn","position","22"]);Player.playClick({"url":"https:\/\/preview.saavncdn.com\/180\/f0881f4166496811e39b0a83e66a9b7c_96_p.mp4","pid":"fYllgjRn","length":"166"}, this); return false;' href=""><div class="quick-play list-view play-progress" id= "play-pause"></div></a>
+                <div id = "loader" class="lds-css ng-scope hide" style="width: 40px; height: 40px;">
+                    <div style="width:100%;height:100%" class="lds-ripple">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>            				<a href="https://www.saavn.com/s/song/hindi/Blackmail/Happy-Happy/FjEHXRNaZV0?&utm_content=wap:playlist_detail:songs:select_song:click&utm_page=playlist_detail&utm_button=songs">
+                            <div class="details content-list">
+                                <p class="song-name ellip">Happy Happy<p>
+                                <p class="album-name ellip">Blackmail</p>
+                            </div>
+                            <i id = "progressbar" class="circle" data-value="1" data-js="circleProgress"></i>
+                            <p id ="timer" class="time">30s</p>
+                                                 <div class="fa fa-chevron-right"></div>
+                        </div></a>
+                    </li>                    <li>
+                        <div class="content-cell num">                <a onclick='Analytics.logAndSendEventToGA(["wap:playlist_detail:songs:play_song:click","utm_content","wap:playlist_detail:songs:play_song:click","utm_page","playlist_detail","utm_button","songs","page_id","49","container_type","list","element_id_type","song_id","element_id","3B7bhdh3","position","23"]);Player.playClick({"url":"https:\/\/preview.saavncdn.com\/731\/4b2ca09eb836980592afa11607af2c6b_96_p.mp4","pid":"3B7bhdh3","length":"296"}, this); return false;' href=""><div class="quick-play list-view play-progress" id= "play-pause"></div></a>
+                <div id = "loader" class="lds-css ng-scope hide" style="width: 40px; height: 40px;">
+                    <div style="width:100%;height:100%" class="lds-ripple">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>            				<a href="https://www.saavn.com/s/song/hindi/Shaadi-Mein-Zaroor-Aana/Pallo-Latke/QypcUxxUXwA?&utm_content=wap:playlist_detail:songs:select_song:click&utm_page=playlist_detail&utm_button=songs">
+                            <div class="details content-list">
+                                <p class="song-name ellip">Pallo Latke<p>
+                                <p class="album-name ellip">Shaadi Mein Zaroor Aana</p>
+                            </div>
+                            <i id = "progressbar" class="circle" data-value="1" data-js="circleProgress"></i>
+                            <p id ="timer" class="time">30s</p>
+                                                 <div class="fa fa-chevron-right"></div>
+                        </div></a>
+                    </li>                    <li>
+                        <div class="content-cell num">                <a onclick='Analytics.logAndSendEventToGA(["wap:playlist_detail:songs:play_song:click","utm_content","wap:playlist_detail:songs:play_song:click","utm_page","playlist_detail","utm_button","songs","page_id","49","container_type","list","element_id_type","song_id","element_id","KMhwk8Lk","position","24"]);Player.playClick({"url":"https:\/\/preview.saavncdn.com\/180\/ee3ee781659207810bacd7fc37ef5549_96_p.mp4","pid":"KMhwk8Lk","length":"184"}, this); return false;' href=""><div class="quick-play list-view play-progress" id= "play-pause"></div></a>
+                <div id = "loader" class="lds-css ng-scope hide" style="width: 40px; height: 40px;">
+                    <div style="width:100%;height:100%" class="lds-ripple">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>            				<a href="https://www.saavn.com/s/song/hindi/Blackmail/Patola/OyUDRh8Ie1g?&utm_content=wap:playlist_detail:songs:select_song:click&utm_page=playlist_detail&utm_button=songs">
+                            <div class="details content-list">
+                                <p class="song-name ellip">Patola<p>
+                                <p class="album-name ellip">Blackmail</p>
+                            </div>
+                            <i id = "progressbar" class="circle" data-value="1" data-js="circleProgress"></i>
+                            <p id ="timer" class="time">30s</p>
+                                                 <div class="fa fa-chevron-right"></div>
+                        </div></a>
+                    </li>                    <li>
+                        <div class="content-cell num">                <a onclick='Analytics.logAndSendEventToGA(["wap:playlist_detail:songs:play_song:click","utm_content","wap:playlist_detail:songs:play_song:click","utm_page","playlist_detail","utm_button","songs","page_id","49","container_type","list","element_id_type","song_id","element_id","pLS9vYZ3","position","25"]);Player.playClick({"url":"https:\/\/preview.saavncdn.com\/912\/392fb991f811e1c9efa1e5a3b700af85_96_p.mp4","pid":"pLS9vYZ3","length":"161"}, this); return false;' href=""><div class="quick-play list-view play-progress" id= "play-pause"></div></a>
+                <div id = "loader" class="lds-css ng-scope hide" style="width: 40px; height: 40px;">
+                    <div style="width:100%;height:100%" class="lds-ripple">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>            				<a href="https://www.saavn.com/s/song/hindi/October/Theher-Ja/ACQ4CAJpbQA?&utm_content=wap:playlist_detail:songs:select_song:click&utm_page=playlist_detail&utm_button=songs">
+                            <div class="details content-list">
+                                <p class="song-name ellip">Theher Ja<p>
+                                <p class="album-name ellip">October</p>
+                            </div>
+                            <i id = "progressbar" class="circle" data-value="1" data-js="circleProgress"></i>
+                            <p id ="timer" class="time">30s</p>
+                                                 <div class="fa fa-chevron-right"></div>
+                        </div></a>
+                    </li>                    <li>
+                        <div class="content-cell num">                <a onclick='Analytics.logAndSendEventToGA(["wap:playlist_detail:songs:play_song:click","utm_content","wap:playlist_detail:songs:play_song:click","utm_page","playlist_detail","utm_button","songs","page_id","49","container_type","list","element_id_type","song_id","element_id","AFdF2Ct9","position","26"]);Player.playClick({"url":"https:\/\/preview.saavncdn.com\/832\/63e9df70a6ec300c0bc7592e160624f9_96_p.mp4","pid":"AFdF2Ct9","length":"229"}, this); return false;' href=""><div class="quick-play list-view play-progress" id= "play-pause"></div></a>
+                <div id = "loader" class="lds-css ng-scope hide" style="width: 40px; height: 40px;">
+                    <div style="width:100%;height:100%" class="lds-ripple">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>            				<a href="https://www.saavn.com/s/song/hindi/Aiyaary/Lae-Dooba/MS4Pd0ZzQwo?&utm_content=wap:playlist_detail:songs:select_song:click&utm_page=playlist_detail&utm_button=songs">
+                            <div class="details content-list">
+                                <p class="song-name ellip">Lae Dooba<p>
+                                <p class="album-name ellip">Aiyaary</p>
+                            </div>
+                            <i id = "progressbar" class="circle" data-value="1" data-js="circleProgress"></i>
+                            <p id ="timer" class="time">30s</p>
+                                                 <div class="fa fa-chevron-right"></div>
+                        </div></a>
+                    </li>                    <li>
+                        <div class="content-cell num">                <a onclick='Analytics.logAndSendEventToGA(["wap:playlist_detail:songs:play_song:click","utm_content","wap:playlist_detail:songs:play_song:click","utm_page","playlist_detail","utm_button","songs","page_id","49","container_type","list","element_id_type","song_id","element_id","lWfLyI7Q","position","27"]);Player.playClick({"url":"https:\/\/preview.saavncdn.com\/111\/913d5e5333e73a3c1c71cef2a3688a35_96_p.mp4","pid":"lWfLyI7Q","length":"292"}, this); return false;' href=""><div class="quick-play list-view play-progress" id= "play-pause"></div></a>
+                <div id = "loader" class="lds-css ng-scope hide" style="width: 40px; height: 40px;">
+                    <div style="width:100%;height:100%" class="lds-ripple">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>            				<a href="https://www.saavn.com/s/song/hindi/Hate-Story-IV/Tum-Mere-Ho/HD8NfQ15AGI?&utm_content=wap:playlist_detail:songs:select_song:click&utm_page=playlist_detail&utm_button=songs">
+                            <div class="details content-list">
+                                <p class="song-name ellip">Tum Mere Ho<p>
+                                <p class="album-name ellip">Hate Story IV</p>
+                            </div>
+                            <i id = "progressbar" class="circle" data-value="1" data-js="circleProgress"></i>
+                            <p id ="timer" class="time">30s</p>
+                                                 <div class="fa fa-chevron-right"></div>
+                        </div></a>
+                    </li>                    <li>
+                        <div class="content-cell num">            				<a onclick='Analytics.logAndSendEventToGA(["wap:playlist_detail:songs:play_song:click","utm_content","wap:playlist_detail:songs:play_song:click","utm_page","playlist_detail","utm_button","songs","page_id","49","container_type","list","element_id_type","song_id","element_id","GoPTQ8dT","position","28"]);Wap.goToApp("","Unknown"); return false;' href=""><div class="quick-play list-view"></div></a>            				<a href="https://www.saavn.com/s/song/hindi/A-Gentleman/Bandook-Meri-Laila/Nwc7ZSUIU2c?&utm_content=wap:playlist_detail:songs:select_song:click&utm_page=playlist_detail&utm_button=songs">
+                            <div class="details content-list">
+                                <p class="song-name ellip">Bandook Meri Laila<p>
+                                <p class="album-name ellip">A Gentleman</p>
+                            </div>
+                            <i id = "progressbar" class="circle" data-value="1" data-js="circleProgress"></i>
+                            <p id ="timer" class="time">30s</p>
+                                                 <div class="fa fa-chevron-right"></div>
+                        </div></a>
+                    </li>                    <li>
+                        <div class="content-cell num">                <a onclick='Analytics.logAndSendEventToGA(["wap:playlist_detail:songs:play_song:click","utm_content","wap:playlist_detail:songs:play_song:click","utm_page","playlist_detail","utm_button","songs","page_id","49","container_type","list","element_id_type","song_id","element_id","XUEdcNw5","position","29"]);Player.playClick({"url":"https:\/\/preview.saavncdn.com\/203\/2f156aade19737665ceed34c179194c9_96_p.mp4","pid":"XUEdcNw5","length":"210"}, this); return false;' href=""><div class="quick-play list-view play-progress" id= "play-pause"></div></a>
+                <div id = "loader" class="lds-css ng-scope hide" style="width: 40px; height: 40px;">
+                    <div style="width:100%;height:100%" class="lds-ripple">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>            				<a href="https://www.saavn.com/s/song/hindi/Baaghi-2/Mundiyan/KD0uVRd,QAY?&utm_content=wap:playlist_detail:songs:select_song:click&utm_page=playlist_detail&utm_button=songs">
+                            <div class="details content-list">
+                                <p class="song-name ellip">Mundiyan<p>
+                                <p class="album-name ellip">Baaghi 2</p>
+                            </div>
+                            <i id = "progressbar" class="circle" data-value="1" data-js="circleProgress"></i>
+                            <p id ="timer" class="time">30s</p>
+                                                 <div class="fa fa-chevron-right"></div>
+                        </div></a>
+                    </li>                    <li>
+                        <div class="content-cell num">                <a onclick='Analytics.logAndSendEventToGA(["wap:playlist_detail:songs:play_song:click","utm_content","wap:playlist_detail:songs:play_song:click","utm_page","playlist_detail","utm_button","songs","page_id","49","container_type","list","element_id_type","song_id","element_id","f-x9bxwm","position","30"]);Player.playClick({"url":"https:\/\/preview.saavncdn.com\/989\/53a306ff26d145aacece36f307c71c55_96_p.mp4","pid":"f-x9bxwm","length":"190"}, this); return false;' href=""><div class="quick-play list-view play-progress" id= "play-pause"></div></a>
+                <div id = "loader" class="lds-css ng-scope hide" style="width: 40px; height: 40px;">
+                    <div style="width:100%;height:100%" class="lds-ripple">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>            				<a href="https://www.saavn.com/s/song/hindi/Hindi-Medium/Suit-Suit/FkUTCBZIQF4?&utm_content=wap:playlist_detail:songs:select_song:click&utm_page=playlist_detail&utm_button=songs">
+                            <div class="details content-list">
+                                <p class="song-name ellip">Suit Suit<p>
+                                <p class="album-name ellip">Hindi Medium</p>
+                            </div>
+                            <i id = "progressbar" class="circle" data-value="1" data-js="circleProgress"></i>
+                            <p id ="timer" class="time">30s</p>
+                                                 <div class="fa fa-chevron-right"></div>
+                        </div></a>
+                    </li>			</ol>
+		</div> <!-- end content body -->
+		<!-- Footer -->
+<div class="section footer">
+    <a onclick="Util.logAndGoToUrl('wap:playlist_detail:terms::click', 'https://www.saavn.com/corporate/terms'); return false;" href="https://www.saavn.com/corporate/terms">Terms</a> 
+/
+    <a onclick="Util.logAndGoToUrl('wap:playlist_detail:privacy::click', 'https://www.saavn.com/corporate/privacy'); return false;"href="https://www.saavn.com/corporate/privacy">Privacy</a>
+</div>
+<iframe style="display:none;" id="dl_iframe"></iframe>
+<div id="overlay"></div>
+</div> <!-- End Main Content -->
+<!-- Side menu -->
+<div id="menu-bg">
+	<ol class="menu-items">
+        <li><a onclick="Util.logAndGoToUrl('wap:playlist_detail:sidemenu:new_release:click', '/new-releases');return false;" href="/new-releases"><h2>New Releases</h2></a></li>
+        <li><a onclick="Util.logAndGoToUrl('wap:playlist_detail:sidemenu:top_charts:click', '/top-charts');return false;" href="/top-charts"><h2>Top Charts</h2></a></li>
+        <li><a onclick="Util.logAndGoToUrl('wap:playlist_detail:sidemenu:new_trending:click', '/new-trending');return false;" href="/new-trending"><h2>New &amp; Trending</h2></a></li>
+        <li><a onclick="Util.logAndGoToUrl('wap:playlist_detail:sidemenu:radio:click', '/radio/hindi');return false;" href="/radio/hindi"><h2>Radio Stations</h2></a></li>
+        <li><a onclick="Util.logAndGoToUrl('wap:playlist_detail:sidemenu:top_playlists:click', '/play/featured-playlists');return false;" href="/play/featured-playlists"><h2>Top Playlists</h2></a></li>
+        <li><a onclick="Util.logAndGoToUrl('wap:playlist_detail:sidemenu:top_artists:click', '/top-artists');return false;" href="/top-artists"><h2>Top Artists</h2></a></li>
+        <li><a onclick="Util.logAndGoToUrl('wap:playlist_detail:sidemenu:modes_and_genres:click', '/top-genres');return false;" href="/top-genres"><h2>Moods &amp; Genres</h2></a></li>
+        <li><a onclick="Util.logAndGoToUrl('wap:playlist_detail:sidemenu:top-shows:click', '/top-shows');return false;" href="/top-shows"><h2>Top Shows</h2></a></li>
+        <li><a onclick="Util.logAndGoToUrl('wap:playlist_detail:sidemenu:about-saavn:click', '/corporate');return false;" href="/corporate"><h2>About Saavn</h2></a></li>
+        <li><a onclick="Util.logAndGoToUrl('wap:playlist_detail:sidemenu:go-pro:click', '/pro?sourceID=smw_menu');return false;" href="/pro?sourceID=smw_menu"><h2>Go Pro</h2></a></li>
+	</ol>
+</div>
+<input type='hidden' value='MzE3ODc2MzMy' id='ct' />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js"></script>    <script src="https://static.saavncdn.com/_s/wap.min.js?t=1529574874"></script><script src="https://static.saavncdn.com/jwplayer/jwplayer.js"></script>
+            <script type="text/javascript">jwplayer.key="p6yWMlKPlqdT3DqwJynNnvI4YNAIFrAQ6BZqQw==";</script><script id="googleAnalytics">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-3091287-23']);
+	_gaq.push(['_setCustomVar', 1, 'user_logged_in_status', 'fb_logged_in', 3]);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		//ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    		ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();		_gaq.push(['_trackPageview', '']);
+</script>
+<script>
+Wap.bindEvents();
+$(document).ready(function() {
+    Analytics.logAndSendEventToGA(["wap:playlist_detail:::view","utm_content","wap:playlist_detail:::view","utm_page","playlist_detail","utm_button","","page_id","49"]);
+});
+Wap.getScreenSize();
+Wap.setLoggingParams();
+Wap.addBannerMargin();
+</script>
+
+	</body>
+</html>
