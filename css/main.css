@@ -3,17 +3,39 @@
  */
 #main {
 	display: inline-block;
+	width: 100%;
 	margin: 0;
-	width: 800px;
 	min-height: 600px;
+}
+
+#saavnContainer {
+	position: relative;
+	height: 200px;
+	width: 100%;
+}
+.saavn {
+	top: 0;
+	left: 0;
+	position: absolute;
 }
 
 #saavn {
 	/*visibility: hidden;*/
-	height: 300px;
-	width: 800px;
-	/*position: fixed;*/
+	height: 200px;
+	width: 100%;
+	position: absolute;
 	z-index: -1000;
+}
+#saavnCover {
+	box-sizing: border-box;
+	vertical-align: middle;
+	height: 200px;
+	width: 100%;
+	text-align: center;
+	font-size: 100px;
+	padding-top: 25px;
+	font-weight: bold;
+	background-color: rgba(92, 177, 100, .7);
 }
 
 #searchForm {
@@ -45,11 +67,92 @@
 #searchBtn {
 	vertical-align: top;
 	display: inline-block;
-	border: 1px solid #212121;
-	color: #212121;
+	border: 1px solid rgb(92, 177, 100);;
+	color: rgb(92, 177, 100);
 	background-color: rgba(0, 0, 0, 0);
 }
 #searchBtn:hover {
-	color: #757575;
-	background-color: #212121;
+	color: #212121;
+	background-color: rgb(92, 177, 100);
+}
+
+
+#results {
+	display: table;
+}
+
+.song-row {
+	display: table-row;
+	width: 100%;
+}
+.song-column {
+	display: table-cell;
+	padding: 30px 0;
+	box-sizing: border-box;
+	height: 50px;
+	vertical-align: middle;
+	text-align: left;
+	border-bottom: 1px solid #E0E0E0;
+}
+.thumbnail {
+	width: 50px;
+	line-height: 0;
+	padding-right: 20px;
+}
+.main-info {
+	margin-left: 0;
+	padding-right: 20px;
+	width: 30%;
+}
+.singers {
+	padding-right: 20px;
+	width: 30%;
+}
+.download-status {
+	text-align: center;
+}
+
+
+.title, .album, .music, .artists {
+	letter-spacing: .5px;
+	margin-bottom: 0px;
+}
+.album, .music {
+	color: #9E9E9E;
+	font-size: 12px;
+	margin-top: 3px;
+}
+.title {
+	font-size: 15px;
+}
+.artists {
+	color: #9E9E9E;
+	font-size: 13px;
+}
+.download-button {
+	font-size: 15px;
+	color: rgb(92, 177, 100);
+	cursor: pointer;
+}
+.progressBar-border {
+	border: 1px solid #9E9E9E;
+	width: 90%;
+	padding: 3px 4px;
+}
+.progressBar {
+	font-size: 12px;
+	line-height: 25px;
+	text-align: center;
+	height: 25px;
+	width: 0%;
+	background-color: rgba(92, 177, 100, .9);
+	transition-property: : width;
+	transition-duration: .1s;
+	transition-timing-function: ease-out;
+}
+
+.breakLine {
+	margin: 1px 0;
+	border-left: 0;
+	border-right: 0;
 }

@@ -4,7 +4,7 @@
 		<title>Kami Desktop Client</title>
 		<script defer type="text/javascript" src="js/fa-solid.min.js"></script>
 		<script type="text/javascript" src="js/fontawesome.min.js"></script>
-		<link href="https://fonts.googleapis.com/css?family=Encode+Sans:400,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="css/skeleton.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -14,27 +14,19 @@
 	</head>
 	<body>
 		<div id="main">
-			<webview id="saavn" src="https://www.saavn.com" preload="./js/inject.js"></webview>
+
+			<div id="saavnContainer">
+				<webview id="saavn" class="saavn" src="https://www.saavn.com" preload="./js/inject.js"></webview>
+				<div class="saavn" id="saavnCover">SaavnDL.</div>
+			</div>
+			
 			<form id="searchForm" class="">
 				<input type="search" name="search" id="search" placeholder="Search...">
 				<button id="searchBtn"><i class="fa fa-search" aria-hidden="true"></i></button>
 			</form>
 
-			<div id="results">
-				<!-- <div class="row result">
-					<div class="three columns">
-						<img src="">
-					</div>
-					<div class="nine columns">
-						<h3 class="title"></h3>
-						<div class="genres">
-							
-						</div>
-						<h5 class="views"></h5>
-						<div class="otherNames"></div>
-						<p class="description"></p>
-					</div>
-				</div> -->
+			
+			<div id="results" class="container">
 			</div>
 		</div>
 		

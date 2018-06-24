@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
 const download = require('download');
-const id3 = require('node-id3')
+const id3 = require('node-id3');
 const path = require('path');
 const fs = require('fs');
 

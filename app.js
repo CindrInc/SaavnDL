@@ -1,6 +1,9 @@
 const electron = require('electron');
+const download = require('download');
+const id3 = require('node-id3');
+const fs = require('fs');
+
 const {app, BrowserWindow, session, Menu} = electron;
-const {download} = require('electron-dl');
 const ipc = electron.ipcMain;
 
 
@@ -147,12 +150,14 @@ if (process.platform === 'darwin') {
 }
 
 
+let mainWindow;
+
 app.on('ready', function() {
 	const menu = Menu.buildFromTemplate(menuTemplate);
 	Menu.setApplicationMenu(menu);
 	mainWindow = new BrowserWindow({
 		height: 600,
-		width: 800,
+		width: 860,
 		autoHideMenuBar: true,
 		backgroundColor: '#FAFAFA'
 	});
@@ -166,6 +171,81 @@ app.on('ready', function() {
 });
 
 ipc.on('download-song', (e, song) => {
+	let mp3Link = song.mp3Link;
 	let info = JSON.parse(song.info);
-	console.log("Title: " + info.title);
+	let song_id = info.e_songid;
+
+	let tempName = info.music + " - " + info.title;
+
+	let artworkName = tempName + ".jpg";
+	let mp3Name = tempName + ".mp3";
+
+	let songsFolder = './songs/';
+	let artworkFolder = './artwork/';
+
+	mainWindow.webContents.send('download-start', song_id);
+	download(mp3Link, songsFolder, {
+		filename: mp3Name
+	})
+	.on('downloadProgress', progress => {
+
+		/**
+		 * progress object example:
+		 * {
+		 * 		percent: 0.1,
+		 * 		transferred: 1024,
+		 * 		total: 10240
+		 * }
+		 */
+
+		// console.log("Percentage download of " + mp3Name + ": " + progress.percent);
+		// mainWindow.setProgressBar(progress.percent);
+		mainWindow.webContents.send('download-progress', {
+			song_id: song_id,
+			progress: progress
+		});
+	})
+	.then(() => {
+		console.log("Downloaded: " + mp3Name);
+
+		download(info.image_url, artworkFolder, {
+			filename: artworkName
+		}).then(() => {
+			console.log("Downloaded artwork: " + artworkName);
+
+			let file = songsFolder + mp3Name;
+			let tags = {
+				artist: info.singers,
+				title: info.title,
+				album: info.album,
+				date: parseInt(info.year),
+				length: parseInt(info.duration),
+				publisher: info.label,
+				comment: {
+					language: "eng",
+					text: "Track Link: " + info.tiny_url
+				},
+				APIC: artworkFolder + artworkName
+			}
+			id3.write(tags, file, function(err) {
+				if(err) {
+					throw err;
+				} else {
+					console.log("File Fixed: " + mp3Name);
+
+					fs.unlink(artworkFolder + artworkName, (err) => {
+						if (err) {
+							throw err;
+						} else {
+							console.log("Artwork deleted: " + artworkName);
+						}
+					})
+				}
+			})
+		});
+	}).catch((err) => console.log(err));
+});
+
+ipc.on('songs-info', (e, songs) => {
+	console.log("Song 1: " + songs[0].title);
 });
