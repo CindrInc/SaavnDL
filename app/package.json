@@ -5,13 +5,17 @@
   "main": "app.js",
   "dependencies": {
     "download": "^7.0.0",
-    "electron": "^2.0.3",
     "node-id3": "^0.1.5"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "electron": "^2.0.3"
+  },
   "scripts": {
     "test": "node app.js",
-    "start": "electron ."
+    "start": "electron .",
+    "package:mac": "electron-packager . --overwrite --platform=darwin --out=../builds",
+    "package:win": "electron-packager . --overwrite --platform=win32 --out=../builds",
+    "package:linux": "electron-packager . --overwrite --platform=linux --out=../builds"
   },
   "repository": {
     "type": "git",
