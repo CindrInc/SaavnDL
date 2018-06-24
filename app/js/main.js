@@ -39,7 +39,7 @@ $(function() {
 		saavn.addEventListener('did-finish-load', () => {
 			console.log("Page loaded");
 
-			saavn.openDevTools();
+			// saavn.openDevTools();
 			saavn.send('get-songs-info');
 		});
 	});
