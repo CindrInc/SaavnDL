@@ -1,9 +1,9 @@
 # SaavnDL
 Tool to download Saavn songs
 
-[//]: # (http://oi67.tinypic.com/207ni3l.jpg)
+<!-- [//]: # (http://oi67.tinypic.com/207ni3l.jpg)
 
-![](http://oi68.tinypic.com/n2ztyw.jpg)
+![](http://oi68.tinypic.com/n2ztyw.jpg) -->
 
 Download songs for offline listening from Saavn.
 Only meant for songs you have purchased.
