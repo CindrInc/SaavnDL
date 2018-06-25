@@ -198,8 +198,7 @@ ipc.on('download-song', (e, song) => {
 		 * }
 		 */
 
-		// console.log("Percentage download of " + mp3Name + ": " + progress.percent);
-		// mainWindow.setProgressBar(progress.percent);
+		mainWindow.setProgressBar(progress.transferred/progress.total);
 		mainWindow.webContents.send('download-progress', {
 			song_id: song_id,
 			progress: progress

@@ -1,7 +1,16 @@
 const baseUrl = "https://www.saavn.com";
 const ipc = require('electron').ipcRenderer;
 
+function sleep(ms) {
+	return new Promise(resolve => setTimeout(resolve, ms));
+}
+
 $(function() {
+
+	let queue = [];
+
+	const saavn = document.querySelector('webview');
+	const $search = $('#search');
 
 	const elements = {
 		song: {
@@ -20,10 +29,6 @@ $(function() {
 		}
 	}
 
-	const saavn = document.querySelector('webview');
-
-	const $results = $('#results');
-	const $search = $('#search');
 
 	saavn.setAudioMuted(true);
 	
@@ -112,8 +117,8 @@ $(function() {
 		$downloadButton.click(function(e) {
 			e.preventDefault();
 			let song_info = JSON.parse($(this).parent().parent().attr('song_info'));
-
-			saavn.send('download-song', song_info);
+			queue.push(song_info);
+			
 		});
 
 		let $downloadStatusDiv = elements.song.$downloadStatusDiv.clone();
@@ -131,6 +136,13 @@ $(function() {
 		$progressBar.css('width', percent + "%");
 		$progressBar.text(percent + "%");
 	}
+
+
+	setInterval(function() {
+		if(queue.length > 0) {
+			saavn.send('download-song', queue.shift());
+		}
+	}, 3000);
 
 
 

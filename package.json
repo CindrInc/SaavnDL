@@ -2,7 +2,7 @@
   "name": "saavndl",
   "version": "1.0.0",
   "description": "Tool to download Saavn songs",
-  "main": "app.js",
+  "main": "src/app.js",
   "dependencies": {
     "download": "^7.0.0",
     "node-id3": "^0.1.5"
@@ -13,16 +13,16 @@
   "scripts": {
     "test": "node app.js",
     "start": "electron .",
-    "package:mac": "electron-packager . --overwrite --platform=darwin --out=../builds",
-    "package:win": "electron-packager . --overwrite --platform=win32 --out=../builds",
-    "package:linux": "electron-packager . --overwrite --platform=linux --out=../builds"
+    "package:mac": "electron-packager ./src/ --overwrite --platform=darwin --out=./builds",
+    "package:win": "electron-packager ./src/ --overwrite --platform=win32 --out=./builds",
+    "package:linux": "electron-packager ./src/ --overwrite --platform=linux --out=./builds"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CindrInc/SaavnDL.git"
   },
   "author": "Cindr",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/CindrInc/SaavnDL/issues"
   },
