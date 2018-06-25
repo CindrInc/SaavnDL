@@ -8,6 +8,8 @@ const ipc = electron.ipcMain;
 
 
 console.log("Start!");
+// console.log(app.getPath('downloads') + "/music/");
+
 
 const appDirectory = 'file://' + __dirname + '/';
 const baseUrl = "http://saavn.com";
@@ -180,8 +182,8 @@ ipc.on('download-song', (e, song) => {
 	let artworkName = tempName + ".jpg";
 	let mp3Name = tempName + ".mp3";
 
-	let songsFolder = './songs/';
-	let artworkFolder = './artwork/';
+	let songsFolder = app.getPath('downloads') + "/music/";
+	let artworkFolder = app.getPath('downloads') + "/artwork/";
 
 	mainWindow.webContents.send('download-start', song_id);
 	download(mp3Link, songsFolder, {
@@ -207,7 +209,11 @@ ipc.on('download-song', (e, song) => {
 	.then(() => {
 		console.log("Downloaded: " + mp3Name);
 
-		download(info.image_url, artworkFolder, {
+		let image_url = info.image_url.split('-');
+		image_url.pop();
+		image_url = image_url.join('-') + "-500x500.jpg";
+
+		download(image_url, artworkFolder, {
 			filename: artworkName
 		}).then(() => {
 			console.log("Downloaded artwork: " + artworkName);
