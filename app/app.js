@@ -3,16 +3,16 @@ const download = require('download');
 const id3 = require('node-id3');
 const fs = require('fs');
 
-const {app, BrowserWindow, session, Menu} = electron;
+const {app, BrowserWindow, session, Menu, dialog} = electron;
 const ipc = electron.ipcMain;
 
 
 console.log("Start!");
-// console.log(app.getPath('downloads') + "/music/");
 
 
 const appDirectory = 'file://' + __dirname + '/';
-const baseUrl = "http://saavn.com";
+let downloadDestination = app.getPath('downloads');
+
 const menuTemplate = [
 {
 	label: 'Electron',
@@ -166,6 +166,7 @@ app.on('ready', function() {
 
 	mainWindow.loadURL(appDirectory + 'index.html');
 
+
 	mainWindow.on('closed', function() {
 		app.quit();
 	});
@@ -182,8 +183,8 @@ ipc.on('download-song', (e, song) => {
 	let artworkName = tempName + ".jpg";
 	let mp3Name = tempName + ".mp3";
 
-	let songsFolder = app.getPath('downloads') + "/music/";
-	let artworkFolder = app.getPath('downloads') + "/artwork/";
+	let songsFolder = downloadDestination + "/music/";
+	let artworkFolder = downloadDestination + "/artwork/";
 
 	mainWindow.webContents.send('download-start', song_id);
 	download(mp3Link, songsFolder, {
@@ -254,3 +255,23 @@ ipc.on('download-song', (e, song) => {
 ipc.on('songs-info', (e, songs) => {
 	console.log("Song 1: " + songs[0].title);
 });
+
+ipc.on('pick-download-destination', e => {
+	dialog.showOpenDialog({
+		defaultPath: downloadDestination,
+		properties: ['openDirectory', 'createDirectory', 'promptToCreate']
+	}, filePaths => {
+		if(filePaths) {
+			mainWindow.webContents.send('download-destination', filePaths[0]);
+		}
+	});
+});
+ipc.on('get-download-destination', e => {
+	mainWindow.webContents.send('download-destination', downloadDestination);
+});
+ipc.on('set-download-destination', (e, filePath) => {
+	downloadDestination = filePath;
+	console.log(downloadDestination);
+})
+
+

@@ -13,9 +13,9 @@
   "scripts": {
     "test": "node app.js",
     "start": "electron .",
-    "package:mac": "electron-packager . --overwrite --platform=darwin --out=../builds",
-    "package:win": "electron-packager . --overwrite --platform=win32 --out=../builds",
-    "package:linux": "electron-packager . --overwrite --platform=linux --out=../builds"
+    "package:mac": "electron-packager . --overwrite --platform=darwin --icon=../assets/mac_logo.icns --out=../builds",
+    "package:win": "electron-packager . --overwrite --platform=win32 --icon=../assets/windows_logo.ico --out=../builds",
+    "package:linux": "electron-packager . --overwrite --platform=linux --icon=../assets/linux_logo.png --out=../builds"
   },
   "repository": {
     "type": "git",

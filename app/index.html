@@ -7,7 +7,6 @@
 		<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="css/skeleton.css">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" onload="window.$ = window.jQuery = module.exports;"></script>
 		<script type="text/javascript" src="js/main.js"></script>
@@ -15,9 +14,28 @@
 	<body>
 		<div id="main">
 
+			<div id="settings">
+				<div id="settingsStatusBar">
+					<h2>Settings.</h2>
+					<span id="closeSettings"><i class="fas fa-times-circle"></i></span>
+				</div>
+				<div id="downloadPathPicker">
+					<h3>Download Destination</h3>
+					<input type="text" name="downloadPath" class="downloadPathPicker" id="downloadPath" value="%ishanarya%/Downloads/music">
+					<button id="browsePath" class="downloadPathPicker">Browse.</button>
+				</div>
+			</div>
 			<div id="saavnContainer">
 				<webview id="saavn" class="saavn" src="https://www.saavn.com" preload="./js/inject.js"></webview>
-				<div class="saavn" id="saavnCover">SaavnDL.</div>
+				<div class="saavn" id="saavnCover">
+					<h1>SaavnDL.</h1>
+
+					<div id="menu">
+						<div id="menu-row">
+							<span class="menu-item" id="settingsButton"><i class="fas fa-sliders-h"></i>&nbsp;&nbsp;SETTINGS</span>
+						</div>
+					</div>
+				</div>
 			</div>
 			
 			<form id="searchForm" class="">

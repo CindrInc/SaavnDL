@@ -10,7 +10,6 @@ $(function() {
 	let queue = [];
 
 	const saavn = document.querySelector('webview');
-	const $search = $('#search');
 
 	const elements = {
 		song: {
@@ -29,8 +28,40 @@ $(function() {
 		}
 	}
 
+	function init() {
+		saavn.setAudioMuted(true);
+		setInterval(function() {
+			if(queue.length > 0) {
+				saavn.send('download-song', queue.shift());
+			}
+		}, 3000);
 
-	saavn.setAudioMuted(true);
+		if(localStorage.downloadDestination) {
+			ipc.send('set-download-destination', localStorage.downloadDestination);
+		}
+		ipc.send('get-download-destination');
+	}
+
+
+	
+
+	$('#settingsButton').click(e => {
+		$('#settings').show();
+	});
+	$('#closeSettings').click(e => {
+		$('#settings').hide();
+		let downloadPath = $('#downloadPath').val();
+		if(downloadPath.slice(-1) === "/") {
+			$('#downloadPath').val(downloadPath.slice(0, -1));
+		}
+		downloadPath = $('#downloadPath').val();
+		console.log(downloadPath);
+		ipc.send('set-download-destination', downloadPath);
+		localStorage.downloadDestination = downloadPath;
+	});
+	$('#browsePath').click(e => {
+		ipc.send('pick-download-destination');
+	});
 	
 	$('#searchForm').submit((e) => {
 		e.preventDefault();
@@ -65,6 +96,9 @@ $(function() {
 	});
 	ipc.on('download-progress', (e, progress_info) => {
 		updateDownloadProgress(progress_info.song_id, progress_info.progress.percent);
+	});
+	ipc.on('download-destination', (e, filePath) => {
+		$('#downloadPath').val(filePath);
 	});
 
 	function createSongElement(song) {
@@ -138,12 +172,8 @@ $(function() {
 	}
 
 
-	setInterval(function() {
-		if(queue.length > 0) {
-			saavn.send('download-song', queue.shift());
-		}
-	}, 3000);
 
+	init();
 
 
 	

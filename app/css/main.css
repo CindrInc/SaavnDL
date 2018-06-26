@@ -1,6 +1,72 @@
-/**
- * Main Search Part
- */
+
+
+body {
+	color: #212121;
+	font-family: 'PT Sans';
+	font-weight: 300;
+	text-align: center;
+}
+
+#settings {
+	display: none;
+	position: fixed;
+	background-color: #FAFAFA;
+	z-index: 10;
+	height: 400px;
+	width: 400px;
+	top: 50%;
+	left: 50%;
+	margin-left: -200px;
+	margin-top: -200px;
+	border: 1px solid #212121;
+	border-radius: 5px;
+	box-shadow: 5px 5px rgba(158,158,158, .8);
+}
+#settingsStatusBar {
+	position: relative;
+	background-color: rgb(92, 177, 100);
+	padding-top: 5px;
+	padding-bottom: 5px;
+	height: 20px;
+	margin-bottom: 10px;
+}
+#settingsStatusBar h2 {
+	font-size: 20px;
+	font-weight: bold;
+	color: #E0E0E0;
+}
+#closeSettings {
+	font-size: 18px;
+	position: absolute;
+	right: 7px;
+	top: 3px;
+	cursor: pointer;
+}
+#closeSettings:hover {
+	color: #FAFAFA;
+}
+
+#downloadPathPicker {
+	padding: 10px;
+	text-align: left;
+}
+#downloadPathPicker h3 {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+#downloadPathPicker input {
+	width: 70%;
+}
+#downloadPathPicker button {
+	box-sizing: border-box;
+	text-align: center;
+	width: 25%;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
 #main {
 	display: inline-block;
 	width: 100%;
@@ -32,10 +98,41 @@
 	height: 200px;
 	width: 100%;
 	text-align: center;
-	font-size: 100px;
 	padding-top: 25px;
-	font-weight: bold;
+	
 	background-color: rgba(92, 177, 100, .7);
+}
+#saavnCover h1 {
+	font-weight: bold;
+	font-size: 100px;
+
+}
+
+#menu {
+	position: absolute;
+	display: table;
+	right: 0;
+	bottom: 0;
+	padding-right: 10px;
+	padding-bottom: 5px;
+}
+#menu-row {
+	display: table-row;
+	vertical-align: top;
+}
+.menu-item {
+	display: table-cell;
+	vertical-align: middle;
+	padding: 5px 10px;
+	border-radius: 5px;
+	background-color: #212121;
+	font-weight: bold;
+	color: #FAFAFA;
+	cursor: pointer;
+}
+.menu-item:hover {
+	background-color: #FAFAFA;
+	color: rgb(92, 177, 100);
 }
 
 #searchForm {
