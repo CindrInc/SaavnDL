@@ -1,5 +1,6 @@
 {
   "name": "saavndl",
+  "productName": "SaavnDL",
   "version": "1.0.0",
   "description": "Tool to download Saavn songs",
   "main": "app.js",
