@@ -150,9 +150,10 @@ $(function() {
 		let $downloadButton = elements.song.$downloadButton.clone();
 		$downloadButton.click(function(e) {
 			e.preventDefault();
+			console.log("Clicked download!");
 			let song_info = JSON.parse($(this).parent().parent().attr('song_info'));
 			queue.push(song_info);
-			
+			$(this).off('click');
 		});
 
 		let $downloadStatusDiv = elements.song.$downloadStatusDiv.clone();
